@@ -3,6 +3,7 @@
 
 ## **Environment**
 - `pip install numpy pandas nltk gensim jupyter tqdm`
+- `conda install tensorflow`
 - `nltk.download('stopwords')` 
 - `nltk.download('punkt')`
 
