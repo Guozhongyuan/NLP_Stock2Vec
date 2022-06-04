@@ -8,7 +8,7 @@
 
 ---
 
-## **Pipline**
+## **Pipeline**
 ### *1. data_download.py*
 Download data from mongodb and save as a pickle file.
 ### *2. data_process.py*
@@ -70,7 +70,7 @@ I use a unsupervised method, that is, count the co-occurrences of two words. I h
 - The data is not clean enough, now get "3_2", "10_q", "0_04" in two-words expression.
 - Multi-word expression which has more than two words, such as "COVID_19_pandemic".
 - For known multi-word expression like "the British Museum", we can use them directly.
-- When we can recognize multi-word expression, add a new data processing step to connect multi-word expression by "_". After concatenating multi words into one word, then train word2vec.
+- When we can recognize multi-word expression, add a new data processing step to connect multi-word expression by "_". After concatenating multi words into one word, we can train word2vec on the newly processed data.
 
 ### **References**
 
